@@ -1,8 +1,8 @@
 //Replace With Your Own Github Username
-const Github_Username = "OlikaX404";
+const Github_Username = "jano1jano";
 
 //Replace With Your Own Email ID
-const Email_Id = "olikaamsalu8@gmail.com";
+const Email_Id = "mohammedjbril10@gmail.com";
 
 var xhr = new XMLHttpRequest();
 xhr.addEventListener("readystatechange", function() {
@@ -22,13 +22,13 @@ xhr.addEventListener("readystatechange", function() {
     }
 });
 
-xhr.open("GET", "https://api.github.com/users/" + Github_Username);
+xhr.open("GET", "https://api.github.com/users/jano1jano);
 xhr.send();
 
-document.getElementById("email").innerHTML = Email_Id;
+document.getElementById("mohammedjbril10@gmail.com").innerHTML = Email_Id;
 
 function mailF() {
-    window.open("mailto:" + Email_Id);
+    window.open("mailto:mohammedjbril10@gmail.com);
 }
 
 /*!
